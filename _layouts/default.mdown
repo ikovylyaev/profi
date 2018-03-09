@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/main.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/owl.carousel.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/owl.theme.green.css" rel="stylesheet">
+    <script src="{{ site.url }}/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="{{ site.url }}/js/popper.min.js"></script>
+    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/js/holder.min.js"></script>
+    <script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+
+</head>
+  <body >
+
+          {{ content }}
+
+    
+  </body>
+</html>
