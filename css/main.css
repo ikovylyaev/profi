@@ -32,3 +32,6 @@ header{background: #fff;}
 .block-blog{margin-bottom: 20px;background: #fff;}
 .blog-content{padding: 20px}
 footer{background: #fff; text-align: center; margin-top: 50px; margin-bottom: 0px; padding: 20px;}
+
+@media(max-width: 768px){.owl-carousel{display:none;}}
+@media(min-width: 769px){.owl-carousel{display:inline-block;}}
